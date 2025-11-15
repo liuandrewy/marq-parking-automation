@@ -1,0 +1,17 @@
+{
+  "name": "marq-parking-automation",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:debug": "playwright test --debug",
+    "build:bookmarklet": "node tools/generate-bookmarklet.mjs"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.56.1",
+    "dotenv": "^16.4.5"
+  }
+}
+
